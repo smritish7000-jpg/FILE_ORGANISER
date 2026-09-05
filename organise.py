@@ -38,7 +38,7 @@ for file in folder.iterdir():
             if not new_destination.exists():
                 destination_file = new_destination
                 break
-        counter +=1
+            counter +=1
         
     shutil.move(str(file),str(destination_file))
     print(f"moved: {file.name} -> {category} ")
